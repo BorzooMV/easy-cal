@@ -1,0 +1,53 @@
+.Screen{
+    position: relative;
+    background-color: $Head;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    input{
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+        font-family: 'VT323', monospace;
+        color: rgba(34, 34, 34, 0.884);
+    }
+
+    .Screen-operator{
+        position: relative;
+        width: 100%;
+        width: 97%;
+        pointer-events: none;
+        top: 20px;
+        margin-bottom: -10px;
+
+        input{
+            text-align: center;
+            width: 60px;
+            height: 30px;
+            position: relative;
+            left: 82%;
+            background-color: $ScreenLight;
+            border-radius: 5px;
+            box-shadow: inset 1px 2px 2px rgba(19, 19, 19, 0.884);
+            border:none;
+            font-size: 2rem;
+        }
+    }
+
+    & > input{
+        position: relative;
+        text-align: right;
+        overflow-x: auto;
+        outline: none;
+        padding-right: 10px;
+        padding-left: 10px;
+        background-color: $ScreenLight;
+        height: 60px;
+        width: 97%;
+        top: 35px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: inset 1px 2px 2px rgba(19, 19, 19, 0.884);
+    }
+}
