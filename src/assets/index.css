@@ -73,11 +73,29 @@ font-family: 'Raleway', sans-serif;
   justify-content: center;
   background-color: #ff6600;
 }
+.Keypad .Keypad-grid .Keypad-grid-functions {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.Keypad .Keypad-grid .Keypad-grid-functions .Key {
+  position: relative;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fa4627;
+  color: #d4d4d4;
+}
 
 .Key {
+  border: none;
   border-radius: 5px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
   font-family: "Major Mono Display", monospace;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .Screen {
@@ -138,8 +156,7 @@ font-family: 'Raleway', sans-serif;
 
 html {
   overflow-x: hidden;
-  background: radial-gradient(rgba(136, 83, 22, 0.787), #272727);
-  background-color: #444444;
+  background: #ffc400;
   display: flex;
   align-items: center;
   justify-content: center;

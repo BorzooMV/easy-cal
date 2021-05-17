@@ -26,8 +26,9 @@ font-family: 'Raleway', sans-serif;
 
 html{
     overflow-x: hidden;
-    background:radial-gradient(rgba(136, 83, 22, 0.787),rgb(39, 39, 39));
-    background-color: rgb(68, 68, 68);
+    // background: rgb(34,193,195);
+    // background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: #ffc400;
     display: flex;
     align-items: center;
     justify-content: center;
